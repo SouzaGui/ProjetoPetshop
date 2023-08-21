@@ -1,0 +1,87 @@
+.titulo-cadastro {
+    color: black;
+    font-weight: bold;
+}
+
+
+ /* Estilize o botão como desejar */
+ #meuBotao {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilize o formulário como um pop-up */
+#meuFormulario {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilize o botão de fechar */
+#fecharFormulario {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#form-funcionario {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#form-Atualizar {
+    display: none;
+    position: fixed;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#botaoFuncionario {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cadastrar-funcionario {
+    margin-top: 10px;
+}
+
+.botoes-consulta {
+    padding: 15px;
+}
+
+.link-Logado {
+    margin: 3px;
+}
+
+.excluirCadastro {
+    background-color: red;
+    color: white;
+}
+
+.excluiCadastro:hover {
+    background-color: rgb(137, 26, 26);
+}

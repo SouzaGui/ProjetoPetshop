@@ -1,0 +1,50 @@
+.secao--produtos {
+    width: 100%;
+}
+
+.cards-recomendados {
+    width: 13rem;
+    height: 15rem;
+
+}
+
+.cards-recomendados > img {
+    width: 20px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3px 3px;
+    margin-left: 22px;
+    margin-right: 0;
+}
+
+.titulo--produtos {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.descricao-produto {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.card {
+    border-color: rgb(165, 130, 84);
+    border-width: 3px;
+    border-radius: 12px;
+    background-color: burlywood;
+}
+
+.invisivel {
+    display: none;
+}

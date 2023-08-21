@@ -1,0 +1,21 @@
+.marcas-vendidas {
+    max-width: 1300px;
+    margin: 0px auto;
+    background-color: burlywood;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: rgb(202, 168, 123);
+    
+}
+
+.titulo-marcas {
+    padding-left: 12px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.marcas {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}

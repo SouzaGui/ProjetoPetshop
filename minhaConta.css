@@ -1,0 +1,41 @@
+.main-minha--conta {
+    margin-top: 100px;
+}
+
+.welcome-section {
+    background-color: white;
+    padding: 12px;
+    width: 60%;
+    height: 100px;
+    margin: 15px;
+}
+
+.section-meus--dados {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.titulo-meus--dados {
+    padding-left: 10px;
+}
+
+.welcome-title {
+    padding-bottom: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.welcome-subtitle {
+    color: black;
+    font-weight: bold;
+}
+
+.gmail-user {
+    display: inline-flex;
+    
+}
+
+.gmail {
+    padding-left: 8px;
+}

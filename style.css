@@ -1,0 +1,197 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(221, 193, 156);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    margin: 10px;
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h1.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    display: grid;
+    grid: auto-flow / repeat 200px 1fr;
+    padding-top: 1rem;
+}
+
+section {
+    padding: 1rem 0 4rem 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 310px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    color: white;
+} */
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member img {
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+}
+
+.gray {
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.intro .ctsge {
+    margin: 2rem;
+}
+
+.header_sge {
+    width: 60%;
+    margin: auto;
+}
+
+.intro p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.ctsge {
+    width: 60%;
+    margin: auto;
+}
+
+.btn {
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 5px 10px 0 rgba(7, 5, 5, 0.247);
+}
+
+.btn:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.541);
+}
+
+.see_more {
+    margin: 10px;
+    font-size: 0.75rem;
+}
+
+.primary {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.secundary {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.copyright {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.redes-sociais {
+    width: 64px;
+}
+
+.btn-card {
+    margin-top: 20px;
+    border-color: black;
+    background-color: rgb(202, 167, 121);
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px;
+    
+    border-radius: 3px;
+
+}
+
+.btn-card:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.541);
+}
+
+.nav_button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 167, 121);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 7px 0 7px;
+}
+
+.input-login {
+    margin: 10px;
+    height: 30px;
+}
+
+/* .mudar-senha {
+    text-decoration: none;
+    font-weight: bold;
+    color: antiquewhite;
+} */

@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulos-footer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+

@@ -1,0 +1,33 @@
+.img-logo {
+    width:  42px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: burlywood;
+    z-index: 100;
+}
+
+.form-inline {
+    margin-right: 35px;
+}
+
+.menu-navbar {
+    padding-left: 20px;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 254, 252);
+}
+
+.nav-link:hover {
+    color: rgba(248, 227, 145, 0.904);
+}
+
